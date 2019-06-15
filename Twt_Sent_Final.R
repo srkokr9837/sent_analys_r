@@ -1,3 +1,13 @@
+#I performed sentiment analysis on Geocoded Twitter Data. 
+#The data consisted of about 500,000 geocoded tweets, and the data I used contained these variables: 
+#a word, the state where the word(s) was used, and the frequency of the word appearing.  
+#-Plotted frequencies of joy and sadness words using dplyr and ggplot2 packages 
+#-Found the top 2 joy words are: love and good; top 2 sadness words are: hate and bad 
+#-Calculated the ratio of positive to negative words in each state 
+#-Found Missouri had the highest positive/negative word ratio and Louisiana had the lowest 
+#-Calculated that Missouri’s positive/negative ratio was 33% higher than Louisiana’s  
+# Packages used: rio, broom, tidytext, tidyr, ggplot2
+
 install.packages("rio")
 library("rio")
 geocoded_tweets=import("gcod_twts.rda")
