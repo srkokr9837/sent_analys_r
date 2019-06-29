@@ -224,6 +224,6 @@ pos_neg_ratios_lou = joined_tbl_lou %>%
 
 plot(pos_neg_ratios_lou)
 
-# Sources Used: Datacamp, Quartz
+# Sources Used: Datacamp, Quartz, https://www.tidytextmining.com/sentiment.html
 
 
